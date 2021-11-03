@@ -8,7 +8,7 @@
 
 ### criar as entidades e o seed do banco
 #### Modelo conceitual
-![Image](https://github.com/devsuperior/bds-assets/raw/main/sds/sds3-mc.png "Modelo conceitual")
+![Image](https://github.com/MauroDegaspari/Graficos/blob/master/backend/entidadeRelacional.png "Modelo conceitual")
 
 #### application.properties
 ```
