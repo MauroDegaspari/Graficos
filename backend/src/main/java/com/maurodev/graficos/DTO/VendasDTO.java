@@ -11,7 +11,7 @@ public class VendasDTO implements Serializable{
 	private Long id;
 	private int visitas;
 	private int negocios;
-	private int quantidade;
+	private Double quantidade;
 	private LocalDate data;
 	
 	private VendedorDTO vendedo;
@@ -20,7 +20,7 @@ public class VendasDTO implements Serializable{
 		
 	}
 
-		public VendasDTO(Long id, int visitas, int negocios, int quantidade, LocalDate data, VendedorDTO vendedo) {
+		public VendasDTO(Long id, int visitas, int negocios, Double quantidade, LocalDate data, VendedorDTO vendedo) {
 		super();
 		this.id = id;
 		this.visitas = visitas;
@@ -64,11 +64,11 @@ public class VendasDTO implements Serializable{
 			this.negocios = negocios;
 		}
 
-		public int getQuantidade() {
+		public Double getQuantidade() {
 			return quantidade;
 		}
 
-		public void setQuantidade(int quantidade) {
+		public void setQuantidade(Double quantidade) {
 			this.quantidade = quantidade;
 		}
 

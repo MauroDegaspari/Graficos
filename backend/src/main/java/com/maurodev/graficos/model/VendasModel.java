@@ -26,7 +26,7 @@ public class VendasModel {
 	private int negocios;
 	
 	@Column(name="amount")
-	private int quantidade;
+	private Double quantidade;
 	
 	@Column(name="date")
 	private LocalDate data;
@@ -39,7 +39,7 @@ public class VendasModel {
 		
 	}
 
-	public VendasModel(Long id, int visitas, int negocios, int quantidade, LocalDate data, VendedorModel vendedor) {
+	public VendasModel(Long id, int visitas, int negocios, Double quantidade, LocalDate data, VendedorModel vendedor) {
 		this.id = id;
 		this.visitas = visitas;
 		this.negocios = negocios;
@@ -72,11 +72,11 @@ public class VendasModel {
 		this.negocios = negocios;
 	}
 
-	public int getQuantidade() {
+	public Double getQuantidade() {
 		return quantidade;
 	}
 
-	public void setQuantidade(int quantidade) {
+	public void setQuantidade(Double quantidade) {
 		this.quantidade = quantidade;
 	}
 
