@@ -225,4 +225,19 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (1,14,8,7705.0,
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (2,71,18,6436.0,'2019-10-07');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0,'2019-10-07');
 ```
+## Deploy no Heroku
 
+Deve ser criado uma arquivo no projeto principal
+#### system.properties
+```
+java.runtime.version=11
+```
+Depois de heroku instalado
+
+```bash
+heroku -v
+heroku login
+heroku git:remote -a <nome-do-app>
+git remote -v
+git subtree push --prefix backend heroku main
+```
