@@ -1,3 +1,5 @@
+import eu from 'assets/img/eu.jpeg';
+
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
@@ -10,7 +12,7 @@ function Home(){
 
                 <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-8">
                         
                         <div className="jumbotron container">
                             <h1 className="display-4">Olá, mundo!</h1>
@@ -21,9 +23,9 @@ function Home(){
                         </div>
                      </div>
 
-                    <div className="col container">
-                        <div className="card">
-                        <img className="card-img-top" src="/src/img/eu.jpeg" alt="Imagem de capa do card"/>
+                    <div className="col-4 container">
+                        <div className="card ">
+                        <img src={eu}  className="card-img-top" alt="Imagem de capa do card"/>
                         <div className="card-body">
                         <h5 className="card-title">Meu GitHub</h5>
                         <p className="card-text">Acesse meu GitHub para poder ter mais conhecimento das minhas Skill e outros Repositorios.</p>

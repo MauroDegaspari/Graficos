@@ -32,5 +32,9 @@ html, body {
 }
 
 .card{
-    width: 18rem;
+    width: 15rem;
+    
+    margin-bottom: 30px;
+    margin-left: 120px;
+    
 }
