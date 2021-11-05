@@ -5,8 +5,10 @@
 <br>
 <a href="https://github.com/MauroDegaspari/Graficos/tree/master/backend">Sobre o Backend</a>
 
-### deploy no Netlify
+## Deploy
 
-
+#### Netlify --> FrontEnd
 https://vendasgrafico.netlify.app
 
+#### Heroku --> BackEnd
+https://graficosvendas-backend.herokuapp.com
