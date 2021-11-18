@@ -227,7 +227,7 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,78,60,6723.0
 ```
 ## Deploy no Heroku
 
-Deve ser criado uma arquivo no projeto principal
+Deve ser criado uma arquivo no projeto principal.
 #### system.properties
 ```
 java.runtime.version=11
